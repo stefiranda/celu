@@ -1,0 +1,83 @@
+* {
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+
+}
+.container_mobile {
+    width: 300px;
+    height: 570px;
+    border-radius: 40px;
+    background-color: rgb(209, 35, 79);
+    margin: 20px auto;
+}
+.box_up {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.camara {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(105, 105, 105);
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notificaciones {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgb(107, 107, 107);
+    margin-left: 10px;
+    position: relative;
+}
+.audio {
+
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(105, 105, 105);
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pantalla {
+    width: 280px;
+    height: 450px;
+    background-color: rgb(214, 246, 250);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.logo {
+        margin-left: 70px;
+        margin-right: 50px;
+        margin-top: 160px;
+        margin-bottom: 100px;
+    }
+.caja-inferior {
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.boton-inicio {
+    width: 70px;
+    height: 25px; 
+    position: relative;
+    border: 2px solid rgb(177, 15, 91);
+    background-color: rgb(209, 35, 79);
+    border-radius: 30px;
+        }
